@@ -1,10 +1,18 @@
 import '../Css/Tours.css'
-
-function Tours(props){
+import db from '../data/db.json'
+function Tours(){
+  
     return(
-        <div className='tours'>
-            <h3>{props.name}</h3>
-            <img src={props.image} alt={props.name}/>
+
+       
+        <div className='main'>
+          {   db.map((obj)=>(
+            <div className='tours'> 
+             <h3>{obj.name}</h3>
+            <img src={obj.image} alt={obj.name}/>
+            </div>
+        ))}
+          
         </div>
     )
 }
