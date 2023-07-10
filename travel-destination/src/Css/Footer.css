@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Nanum+Gothic&family=Roboto+Slab&display=swap');
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color:grey;
+    color: white;
+    text-align: center;
+    height: 30px;
+    padding-bottom: 20px;
+    
+}
+
+h3{
+    font-family: 'Roboto Slab', serif;
+  }
+
+  a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+nav{
+    padding-top: 20px;
+}
