@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Nanum+Gothic&family=Roboto+Slab&display=swap');
+
+.header{
+    width: inherit;
+    height: 80px;
+    background-color: grey;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h1{
+    font-family: 'Roboto Slab', serif;
+  }
