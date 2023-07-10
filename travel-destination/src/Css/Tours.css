@@ -20,3 +20,13 @@ img{
 h3{
     font-family: 'Roboto Slab', serif;
 }
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 20px;
+    
+}

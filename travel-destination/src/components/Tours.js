@@ -6,8 +6,8 @@ function Tours(){
 
        
         <div className='main'>
-          {   db.map((obj)=>(
-            <div className='tours'> 
+          {   db.map((obj,i)=>(
+            <div  key={i} className='tours'> 
              <h3>{obj.name}</h3>
             <img src={obj.image} alt={obj.name}/>
             </div>
