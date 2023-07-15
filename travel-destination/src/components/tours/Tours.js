@@ -1,12 +1,19 @@
+import { Link } from 'react-router-dom';
 import './Tours.css'
-import db from '../../data/db.json'
 import Tour from './tour/Tour';
-function Tours(){
+function Tours(props){
   
     return(
 
-       <div>
-        <Tour tour={db}/>
+       <div className='main'>
+        {
+            props.data.map((obj,i)=>(
+                <Link key ={i} to={`/city/${obj.id}`}>
+                    <Tour  tour={obj}/>
+                </Link>
+            ))
+        }
+        
        </div>
        
     )

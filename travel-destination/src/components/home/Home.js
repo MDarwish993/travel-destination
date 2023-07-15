@@ -1,11 +1,11 @@
 import Tours from '../tours/Tours';
 import './Home.css'
 
-function Home(){
+function Home(props){
     return(
         <div className='home'>
              
-                <Tours />
+                <Tours data={props.data}/>
             
         </div>
        
